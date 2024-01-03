@@ -4,3 +4,40 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
+.container {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll
+}
+
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+.one {
+    background-color: yellowgreen;
+}
+
+.two {
+    background-color: hotpink;
+}
+
+.three {
+    background-color: aqua;
+}
+
+.four {
+    background-color: slateblue;
+}
+
+h1 {
+    color: rgb(226, 226, 226);
+    text-shadow: 1px 1px 1px #000;
+    font-size: xx-large
+}
